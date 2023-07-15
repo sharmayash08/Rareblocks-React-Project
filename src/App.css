@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    display: flex;
+    gap: 108px;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding-left: 32px;
+    padding-right: 24px;
+    padding-top: 18px;
+    max-width: 1500px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.main .links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cta-btns{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.login{
+    font-size: 16px;
+    border: none;
+    background: transparent;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    width: 627px;
+    height: 324px;
+    align-items: center;
+    align-self: center;
+    margin-top: 90px;
+}
+
+.hero-content h2{
+    font-size: 54px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.hero-content h2 span{
+    background: linear-gradient(to right,#44BCFF, #44B0FF, #FF44EC, #FF44EC, #FF675E);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.hero-content p{
+    font-size: 18px;
+}
+
+.hero-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 36px;
+}
+
+.subtitles{
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.subtitles p{
+    font-size: 13px;
+}
+
+.getmore-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    border: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.transparent-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13.5px;
+    background: transparent;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.trasparent-btn img{
+    width: 18px;
+    height: 18px;
+}
+
+.hero-img{
+    margin-top: -100px;
+}
